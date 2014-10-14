@@ -28,11 +28,11 @@ public class AdderTest {
 	}
 	
 	
-	@Test
+	@Test(timeout=10)
 	public void test() {
-		int input1 = 4651;
-		int input2 = 3215;
-		int expectedOutput = 7866;
+		int input1 = 465134;
+		int input2 = 321552;
+		int expectedOutput = 786686;
 
 		Adder addObj = new Adder();
 
