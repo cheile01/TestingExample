@@ -30,9 +30,9 @@ public class AdderTest {
 	
 	@Test(timeout=10)
 	public void test() {
-		int input1 = 465134;
-		int input2 = 321552;
-		int expectedOutput = 786686;
+		int input1 = 5;
+		int input2 = 10000;
+		int expectedOutput = 10005;
 
 		Adder addObj = new Adder();
 
